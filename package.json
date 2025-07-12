@@ -1,0 +1,37 @@
+{
+  "name": "Authentication API",
+  "packageManager": "yarn@4.9.1",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/app.ts",
+    "gen": "plop"
+  },
+  "prettier": {
+  "singleQuote": true
+},
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^24.0.13",
+    "@types/nodemailer": "^6.4.17",
+    "pino-pretty": "^13.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.17.0",
+    "argon2": "^0.43.0",
+    "config": "^4.0.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^17.2.0",
+    "express": "5",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.16.3",
+    "nanoid": "^5.1.5",
+    "nodemailer": "^7.0.5",
+    "pino": "^9.7.0",
+    "zod": "^4.0.5"
+  }
+}
