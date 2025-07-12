@@ -23,3 +23,4 @@ node_modules
 .vscode/
 .yarn/
 node_modules/
+config/
