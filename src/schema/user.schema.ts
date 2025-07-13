@@ -23,4 +23,13 @@ export const createUserSchema = z.object({
     }),
 });
 
+export const verifyUserSchema = z.object({
+  params: z.object({
+    id: z.string(),
+    verificationCode: z.string(),
+  }),
+});
+
 export type CreateUserInput = z.infer<typeof createUserSchema>['body'];
+
+export type VerifyUserInput = z.infer<typeof verifyUserSchema>['params'];
